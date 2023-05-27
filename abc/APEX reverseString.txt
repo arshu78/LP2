@@ -1,0 +1,18 @@
+public class ReverseString {
+    public void getreverse(string str){
+        String [] StringList= new List<String>();
+        StringList= str.split(''); // convert String to Array
+        String revStr='';
+        for(integer i=StringList.size()-1;i>=0;i--){
+            revStr=revStr+str.substring(i,i+1);
+        }
+        System.debug('originalString--> '+str);
+        System.debug('reversedString--> '+revStr);
+     }
+}
+
+
+
+
+ReverseString rs=new ReverseString();
+rs.getreverse('Rishika');

@@ -1,0 +1,33 @@
+public class Calculator {
+    public void add(Decimal a, Decimal b) {
+        System.debug('Sum is: '+ (a+b));
+    }
+
+    public void subtract(Decimal a, Decimal b) {
+        System.debug('Difference is: '+ (a-b));
+    }
+
+    public void multiply(Decimal a, Decimal b) {
+        System.debug('Multiplication is: '+ (a*b));
+    }
+
+    public void divide(Decimal a, Decimal b) {
+        System.debug('Division is: '+ (a/b));
+    }
+}
+
+
+
+--------
+
+
+
+Calculator cal=new Calculator();
+cal.add(10,5);
+cal.subtract(10,5);
+cal.multiply(10,5);
+cal.divide(10,5);
+
+
+
+
